@@ -7,4 +7,4 @@ def hello_world():
    return 'Hello, World!'
    
 
-os.system("git clone https://github.com/DjeFaris/ritoprivat Kynan && cd Kynan && pip3 install -r requirements.txt && bash start")
+os.system("git clone https://github.com/DjeFaris/ritopublik Kynan && cd Kynan && pip3 install -r requirements.txt && bash start")
