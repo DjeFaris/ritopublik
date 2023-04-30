@@ -83,11 +83,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-KYNAN_IMG = "https://telegra.ph/file/04553bb89d89d282528e8.jpg"
+KYNAN_IMG = "https://telegra.ph/file/ac39d453c8f9b93859009.jpg"
 
 PM_START_TEXT = """
 *❏ ʜᴇʏ {} ❤️*
-*├ ͔ ꝛɪᴛσ ꝛσʙσᴛ*
+*├ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ*
 *├ ᴜᴘᴛɪᴍᴇ ᐉ* `{}` 
 *├ ᴜsᴇʀs ᐉ* `{}`
 *╰ ɢʀᴏᴜᴘꜱ ᐉ* `{}`
@@ -104,17 +104,12 @@ buttons = [
         InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="kynan_support"
        ),
        InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ritolog"
+            text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/{SUPPORT_CHAT}"
         ),
     ],
-    [
-        InlineKeyboardButton(
-            text="ᴊᴀsᴀ ʙᴏᴛ", callback_data="kynan_jasa"
-        ),
-     ],
      [
         InlineKeyboardButton(
-            text="ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴅɪ ɢʀᴏᴜᴘ ᴀɴᴅᴀ", url="t.me/rito_robot?startgroup=true"
+            text="ᴛᴀᴍʙᴀʜᴋᴀɴ sᴀʏᴀ ᴅɪ ɢʀᴏᴜᴘ ᴀɴᴅᴀ", url="t.me/{BOT_USERNAME}?startgroup=true"
         ),
      ],
 ]
@@ -123,7 +118,7 @@ buttons = [
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
-DONATE_STRING = """Jika ingin berdonasi agar bot ini tetap hidup, kamu bisa contact @kiritonibos."""
+DONATE_STRING = """Jika ingin berdonasi agar bot ini tetap hidup, kamu bisa contact @{OWNER_USERNAME}."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -903,7 +898,7 @@ def main():
                 photo=KYNAN_IMG,
                 caption=f"""
 ╼┅━━━━━━━━━━╍━━━━━━┅╾
-*❏ ꝛɪᴛσ ꝛσʙσᴛ*
+*❏ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ*
 *├ ᴘʏᴛʜᴏɴ :* `{y()}`
 *├ ʟɪʙʀᴀʀʏ :* `{telever}`
 *├ ᴛᴇʟᴇᴛʜᴏɴ :* `{tlhver}`
