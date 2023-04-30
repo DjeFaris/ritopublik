@@ -7,6 +7,7 @@ from telethon import __version__ as tlhver
 from pyrogram import __version__ as pyrover
 from Kynan.events import register
 from Kynan import telethn as tbot
+from Kynan import (OWNER_USERNAME, BOT_USERNAME, )
 
 
 PHOTO = "https://telegra.ph/file/ac39d453c8f9b93859009.jpg"
