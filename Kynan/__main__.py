@@ -104,7 +104,7 @@ buttons = [
         InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="kynan_support"
        ),
        InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/{SUPPORT_CHAT}"
+            text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+irLwUlTtASczNTE1"
         ),
     ],
 [
@@ -444,7 +444,7 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                    InlineKeyboardButton(text="️ꝛɪᴛσ", url="https://t.me/kiritonibos"),
+                    InlineKeyboardButton(text="️OWNER", url="https://t.me/xpemainbaru"),
                     
                   ],
                                     [
